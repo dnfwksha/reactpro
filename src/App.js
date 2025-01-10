@@ -23,8 +23,6 @@ const App = () => {
     }
 
     const handleAmount = (e) => {
-        // console.log(typeof e.target.valueAsNumber);
-        console.log(typeof amount)
         setAmount(e.target.valueAsNumber);
     }
 
